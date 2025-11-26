@@ -1,5 +1,5 @@
 import { useState } from "react";
-import miImagen from './assets/OIP.jpg';
+
 
 export default function CurpForm({ onGenerar }) {
     const [form, setForm] = useState({

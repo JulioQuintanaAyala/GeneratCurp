@@ -1,0 +1,109 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #eef2f7;
+
+    justify-content: center;
+    /* Centra horizontal */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+/* ======== TARJETA DEL FORMULARIO ======== */
+.card {
+    width: 320px;
+    /* 🔹 Pequeño */
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    /* 🔹 Compacto */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+/* Título */
+.card h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #111;
+}
+
+/* ======== INPUTS ======== */
+.card input,
+.card select {
+    width: 100%;
+    padding: 8px;
+    /* 🔹 Más pequeño */
+    font-size: 13px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #b8b8b8;
+    background: #fff;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+/* Efecto enfocar */
+.card input:focus,
+.card select:focus {
+    border-color: #4b7bec;
+    box-shadow: 0 0 6px rgba(75, 123, 236, 0.35);
+    outline: none;
+}
+
+/* Etiquetas */
+.card label {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #222;
+}
+
+/* ======== BOTÓN ======== */
+.card button {
+    width: 100%;
+    padding: 10px;
+    background: #4b7bec;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.25s ease;
+}
+
+.card button:hover {
+    background: #3867d6;
+}
+
+/* ======== RESULTADO CURP ======== */
+.resultado {
+    width: 320px;
+    margin: 20px auto;
+    text-align: center;
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.resultado h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.resultado .curp {
+    font-size: 20px;
+    font-weight: bold;
+    background: #f7f9fc;
+    border: 2px solid #c8d0dd;
+    padding: 10px;
+    border-radius: 6px;
+    color: #000;
+}
